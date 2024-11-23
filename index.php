@@ -71,7 +71,8 @@
 								  <div class="form-group col-md-2">
 									<label for="itemDetailsStatus">Status</label>
 									<select id="itemDetailsStatus" name="itemDetailsStatus" class="form-control chosenSelect">
-										<?php include'inc/statusList.html'; ?>
+										define('STATUS_LIST_PATH', 'inc/statusList.html');
+
 									</select>
 								  </div>
 							  </div>
