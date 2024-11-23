@@ -6,9 +6,9 @@
 		exit();
 	}
 	
-	require_once('inc/config/constants.php');
-	require_once('inc/config/db.php');
-	require_once('inc/header.html');
+	require_once'inc/config/constants.php';
+	require_once'inc/config/db.php';
+	require_once'inc/header.html';
 ?>
   <body>
 <?php
@@ -71,7 +71,7 @@
 								  <div class="form-group col-md-2">
 									<label for="itemDetailsStatus">Status</label>
 									<select id="itemDetailsStatus" name="itemDetailsStatus" class="form-control chosenSelect">
-										<?php include('inc/statusList.html'); ?>
+										<?php include'inc/statusList.html'; ?>
 									</select>
 								  </div>
 							  </div>
@@ -178,7 +178,7 @@
 							<label for="purchaseDetailsVendorName">Vendor Name<span class="requiredIcon">*</span></label>
 							<select id="purchaseDetailsVendorName" name="purchaseDetailsVendorName" class="form-control chosenSelect">
 								<?php 
-									require('model/vendor/getVendorNames.php');
+									require'model/vendor/getVendorNames.php';
 								?>
 							</select>
 						  </div>
@@ -221,7 +221,7 @@
 						<div class="form-group col-md-2">
 							<label for="vendorDetailsStatus">Status</label>
 							<select id="vendorDetailsStatus" name="vendorDetailsStatus" class="form-control chosenSelect">
-								<?php include('inc/statusList.html'); ?>
+								<?php include'inc/statusList.html'; ?>
 							</select>
 						</div>
 						 <div class="form-group col-md-3">
@@ -260,7 +260,7 @@
 						<div class="form-group col-md-4">
 						  <label for="vendorDetailsVendorDistrict">District</label>
 						  <select id="vendorDetailsVendorDistrict" name="vendorDetailsVendorDistrict" class="form-control chosenSelect">
-							<?php include('inc/districtList.html'); ?>
+							<?php include'inc/districtList.html'; ?>
 						  </select>
 						</div>
 					  </div>					  
@@ -364,7 +364,7 @@
 						<div class="form-group col-md-2">
 							<label for="customerDetailsStatus">Status</label>
 							<select id="customerDetailsStatus" name="customerDetailsStatus" class="form-control chosenSelect">
-								<?php include('inc/statusList.html'); ?>
+								<?php include'inc/statusList.html'; ?>
 							</select>
 						</div>
 						 <div class="form-group col-md-3">
@@ -403,7 +403,7 @@
 						<div class="form-group col-md-4">
 						  <label for="customerDetailsCustomerDistrict">District</label>
 						  <select id="customerDetailsCustomerDistrict" name="customerDetailsCustomerDistrict" class="form-control chosenSelect">
-							<?php include('inc/districtList.html'); ?>
+							<?php include'inc/districtList.html'; ?>
 						  </select>
 						</div>
 					  </div>					  
