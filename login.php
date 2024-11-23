@@ -11,7 +11,8 @@ require_once 'inc/config/constants.php';
 require_once 'inc/config/db.php';
 require_once 'inc/header.html';
 
-define('FOOTER_PATH', 'inc/footer.php'); // Definir la constante para footer.php
+// Define a constant for the footer path to avoid duplication
+define('FOOTER_PATH', 'inc/footer.php');
 ?>
   <body>
 <?php
