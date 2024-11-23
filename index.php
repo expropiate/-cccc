@@ -219,10 +219,11 @@
 						  <input type="text" class="form-control" id="vendorDetailsVendorFullName" name="vendorDetailsVendorFullName" placeholder="">
 						</div>
 						<div class="form-group col-md-2">
-							<label for="vendorDetailsStatus">Status</label>
-							<select id="vendorDetailsStatus" name="vendorDetailsStatus" class="form-control chosenSelect">
-								<?php include'inc/statusList.html'; ?>
-							</select>
+   						 <label for="vendorDetailsStatus">Status</label>
+    						<select id="vendorDetailsStatus" name="vendorDetailsStatus" class="form-control chosenSelect">
+      						<?php include STATUS_LIST_PATH; ?>
+   						</select>
+						</div>
 						</div>
 						 <div class="form-group col-md-3">
 							<label for="vendorDetailsVendorID">Vendor ID</label>
